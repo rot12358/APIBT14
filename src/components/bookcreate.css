@@ -22,16 +22,23 @@
     height: 25px;
     border-radius:5px ;
 }
-input[type="submit"] {
-    background-color: #2c7dd3; /* Button background color */
-    color: #000000; /* Button text color */
-    padding: 10px 20px; /* Add padding to the button */
-    border: none; /* Remove button border */
-    border-radius: 4px; /* Add border radius for rounded corners */
-    cursor: pointer; /* Add pointer cursor on hover */
-    font-weight: 600;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #0056b3; /* Button background color on hover */
-  }
+
+  .Create {
+    background-color: #4CAF50; /* Màu nền */
+    border: none; /* Loại bỏ viền */
+    color: white; /* Màu chữ */
+    padding: 15px 32px; /* Kích thước đệm */
+    text-align: center; /* Canh giữa chữ */
+    text-decoration: none; /* Loại bỏ gạch chân */
+    display: inline-block; /* Hiển thị là một khối */
+    font-size: 16px; /* Kích thước chữ */
+    margin: 4px 2px; /* Khoảng cách giữa các nút */
+    cursor: pointer; /* Con trỏ khi di chuột qua */
+    border-radius: 10px; /* Bo tròn góc */
+    transition-duration: 0.4s; /* Thời gian chuyển đổi */
+}
+
+.Create:hover {
+    background-color: #45a049; /* Màu nền khi di chuột qua */
+    color: white; /* Màu chữ khi di chuột qua */
+}

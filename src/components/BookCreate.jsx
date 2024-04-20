@@ -36,7 +36,7 @@ const BookCreate = ({onCreate}) => {
                 id="des" 
                 name="des" 
                 /></div>
-                <input  type="submit" value="Create!" />
+               <input className="Create" type="submit" value="Create!" />
                 
         </form>
     </div>

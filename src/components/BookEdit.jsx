@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./booklist.css"
 export const BookEdit = ({book,onEdit}) => {
     const[title, setTitle] = useState(book.title);
     const[des, setDes] = useState(book.des);
@@ -28,14 +27,14 @@ export const BookEdit = ({book,onEdit}) => {
                 id="title" 
                 name="title"
                 value={title}
-                />
+                /><br></br>
                 <input onChange={handleChangeDes} 
                 value={des} 
                 type ="text" 
                 id="des" 
                 name="des" 
                 />
-                <input  type="submit" value="Edit"/>
+                <input className="Edit"  type="submit" value="Edit"/>
                 <><button className="out">Cancel</button></>
                
                 
